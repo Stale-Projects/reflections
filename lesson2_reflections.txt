@@ -1,0 +1,6 @@
+Q: What happens when you initialize a repository? Why do you need to do it?
+a: Cuando se inicializa un repositorio se crea un directorio oculto llamado .git que contendrá la metadata del repositorio. Esto es necesario para que git entregue la funcionalidad de control de versión. De lo contrario, el directorio será un directorio más en el SO. 
+
+Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
+a: La staging area contiene los archivos que se guardan en el repositorio en cada commit, en el estado en que se encuentran en el working directory. Es decir, la staging area es un subconjunto del working directory. El valor que ofrece es definir qué archivos se encuentran en control de versión y determinar si están un estado modificado o no con respecto al último commit. 
+
