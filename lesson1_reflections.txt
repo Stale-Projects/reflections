@@ -1,0 +1,38 @@
+Q: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+A: It was interesting to see how the OS Diff command shows the difference between both. I should remember to use the command in this way: Diff -u oldversionfile newversionfile, so that the + and - make more sense from the historical pov, otherwise I have to think reversely (which in fact, I did)
+
+Q: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+A: It makes it easier potting places where things went wrong. Also, along the way, I may have deleted something that I need later on. It may also help me understand the evolution of code, if I want to review the process of code creation, or if I want to trace back the different editions of the code. Finally, it can also help identifying how different tasks in a bug tracker led to changes in the code
+
+Q: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+A: 	Pros-> 
+			1) Provides greater flexibility
+			2) Helps keep commits small and meaningful
+			3) Allows to easily add comments to commits to signal what has changed
+			  
+	Cons->
+			1) Makes necessary to remember that I need to commit my work
+
+Q: How can you use the commands git log and git diff to view the history of files?
+A: git log shows the commits history. They are shown beginning with the latest change at the top, and going down previous changes in decreasing order. It is important to remember 2 things: 
+	a. Para salir de la consola de OS X cuando muestra una salida de múltiples líneas y deja un colon ":" al final de la pantalla, apretar "q"
+	b. Los cambios se listan del siguiente modo: 
+
+commit 3e42136a76cf78c6c421cd720427bf6337c2d623
+Author: Doug McInnes <doug@dougmcinnes.com>
+Date:   Tue Mar 15 22:34:49 2011 -0700
+
+    now using requestAnimationFrame
+    
+    see this for more info:
+    http://paulirish.com/2011/requestanimationframe-for-smart-animating/
+
+Es decir, que viene primero el ID del commit, el autor y la fecha como encabezados, y luego el comentario (puede ser en varias líneas)
+
+Q: How might using version control make you more confident to make changes that could break something?
+A: Usar control de versión permite volver atrás un cambio que haya introducido bugs o problemas no anticipados
+
+Q: Now that you have your workspace set up, what do you want to try using Git for?
+A: Quisiera usar el repositorio de prueba y trabajar con conceptos como barnching, rebasing, pull request, etc. 
+
+
