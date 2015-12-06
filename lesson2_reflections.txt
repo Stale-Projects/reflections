@@ -4,3 +4,12 @@ a: Cuando se inicializa un repositorio se crea un directorio oculto llamado .git
 Q: How is the staging area different from the working directory and the repository? What value do you think it offers?
 a: La staging area contiene los archivos que se guardan en el repositorio en cada commit, en el estado en que se encuentran en el working directory. Es decir, la staging area es un subconjunto del working directory. El valor que ofrece es definir qué archivos se encuentran en control de versión y determinar si están un estado modificado o no con respecto al último commit. 
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+A: Si estuve trabajando en cambiar varios archivos con un mismo fin, puedo ir moviendo los cambios al Staging uno por uno (usando git add) y hacer un commit por cada modificación. De ese modo es más fácil corregir luego, o encontrar un cambios específico en el código
+
+Q: What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+A: Los branches pueden ayudar cuando quiero introducir cambios experimentales, o inicio el desarrollo en un nuevo camino del que no estoy seguro y que puede ser eventualmente descartado. También es útil cuando quiero desarrollar una nueva versión, pero sin alterar la actual. 
+
+Q: How do the diagrams help you visualize the branch structure?
+A: Los diagramas me ayudan a visualizar la relación entre los distintos branches y a entender como se relacionan unos con otros
+
