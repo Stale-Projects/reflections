@@ -13,3 +13,10 @@ A: Los branches pueden ayudar cuando quiero introducir cambios experimentales, o
 Q: How do the diagrams help you visualize the branch structure?
 A: Los diagramas me ayudan a visualizar la relación entre los distintos branches y a entender como se relacionan unos con otros
 
+Q: What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A: Mergear dos branches produce un commit que combina el último commit de cada branch. En el diagrama se muestra el nuevo commit apuntando a sus dos padres, ya que en rigor, proviene de dos commits diferentes en lugar de uno como es cuando se trabaja dentro de un mismo branch. 
+
+Q: What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+A: Al hacer el merge manualmente puedo "reparar" el código de modo de mantener los aportes hechos en cada branch de modo que funcionen correctamente. No hay modo de que Git pueda llegar a ese nivel de detalle o de entendimiento del código
+
+
