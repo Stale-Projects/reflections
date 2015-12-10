@@ -1,0 +1,2 @@
+Q: When would you want to use a remote repository rather than keeping all your work local?
+A: Cuando necesito compartir el trabajo con colaboradores que trabajen desde su propia computadora. También, cuando quiero compartir el código para que otras personas lo puedan ver y/o utilizar (en caso de usar un repositorio público).
