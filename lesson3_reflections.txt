@@ -4,3 +4,11 @@ A: Cuando necesito compartir el trabajo con colaboradores que trabajen desde su 
 Q: Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 A: Si se hiciera automáticamente, no tendría control de mi versión local: cada vez que alguien cambia algo en el repo remoto, mi propio repo cambiaría sin aviso, dando lugar a resultados inesperados
 
+Q: Describe the differences between forks, clones, and branches. When would you use one instead of another?
+A: 
+	_Branch: En su creación participa un único repo. Es una bifurcación en el historial de commits de modo tal que desde un branch no puedo alcanzar un commit del otro branch. A nivel de implementación un branch es un label que se le pone a un commit. 
+	_Clone: En el clone participan dos repositorios: el repositorio de origen y el nuevo repositorio creado. Cuando clono un repo, lo que hago es una copia exacta del repo en un nuevo repo. Puedo bien clonar un repo local o uno remoto. Al clonar el repo remoto se crea un remote automáticamente. 
+	_Fork: Un fork es muy similar a un clone pero ocurre en Github: se copia un repo en uno nuevo dentro de github. Github guarda la asociación del nuevo repo al original, y una cuenta de cuantos forks tiene un repo. 
+
+	
+
